@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="B_" prefHeight="203.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bancofacil.BienvenidaController">
+   <children>
+      <Button fx:id="B_Consultar" layoutX="74.0" layoutY="152.0" mnemonicParsing="false" onAction="#B_Consulta" style="-fx-background-color: green;" text="Consultar" textFill="WHITE" />
+      <Label layoutX="11.0" layoutY="14.0" prefHeight="6.0" prefWidth="287.0" text="Bienvenido a Banca facil">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="B_Salir" layoutX="174.0" layoutY="152.0" mnemonicParsing="false" onAction="#Salir" style="-fx-background-color: red;" text="Salir" textFill="WHITE" />
+      <Label layoutX="61.0" layoutY="61.0" prefHeight="21.0" prefWidth="188.0" text="Elija la opcion de su agrado:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="R_registro" layoutX="34.0" layoutY="101.0" mnemonicParsing="false" text="Registrar cliente" />
+      <RadioButton fx:id="R_transa" layoutX="174.0" layoutY="101.0" mnemonicParsing="false" text="Transaciones" />
+   </children>
+</AnchorPane>
